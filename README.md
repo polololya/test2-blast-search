@@ -9,6 +9,9 @@ __NCBIWWW__ to perform database search
 __NCBIXML__ to handle with search results
 
 ### How to use:
-$ blast-searcher.py <your.fasta>
+$ blast-searcher.py <your.fasta>  
 Output: file result-blast.fasta
 
+
+_Disclaimer:_
+To reduce number of blast requests and avoid being blocked, number of alignments for each record reduced to one
